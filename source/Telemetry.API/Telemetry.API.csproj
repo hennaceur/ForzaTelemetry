@@ -4,6 +4,14 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="MongoDB.Bson" Version="2.10.2" />
+    <PackageReference Include="MongoDB.Driver" Version="2.10.2" />
+    <PackageReference Include="MongoDB.Driver.Core" Version="2.10.2" />
+    <PackageReference Include="MongoDB.Driver.GridFS" Version="2.10.2" />
+    <PackageReference Include="Serilog.Sinks.MongoDB" Version="4.0.0" />
+  </ItemGroup>
+
 
 
 </Project>

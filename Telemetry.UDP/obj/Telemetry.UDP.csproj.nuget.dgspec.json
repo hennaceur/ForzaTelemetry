@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hazem\\Desktop\\repos\\ForzaTelemetry\\source\\Telemetry.API\\Telemetry.API.csproj": {}
+    "C:\\Users\\Hazem\\Desktop\\repos\\ForzaTelemetry\\Telemetry.UDP\\Telemetry.UDP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hazem\\Desktop\\repos\\ForzaTelemetry\\source\\Telemetry.API\\Telemetry.API.csproj": {
+    "C:\\Users\\Hazem\\Desktop\\repos\\ForzaTelemetry\\Telemetry.UDP\\Telemetry.UDP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hazem\\Desktop\\repos\\ForzaTelemetry\\source\\Telemetry.API\\Telemetry.API.csproj",
-        "projectName": "Telemetry.API",
-        "projectPath": "C:\\Users\\Hazem\\Desktop\\repos\\ForzaTelemetry\\source\\Telemetry.API\\Telemetry.API.csproj",
+        "projectUniqueName": "C:\\Users\\Hazem\\Desktop\\repos\\ForzaTelemetry\\Telemetry.UDP\\Telemetry.UDP.csproj",
+        "projectName": "Telemetry.UDP",
+        "projectPath": "C:\\Users\\Hazem\\Desktop\\repos\\ForzaTelemetry\\Telemetry.UDP\\Telemetry.UDP.csproj",
         "packagesPath": "C:\\Users\\Hazem\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hazem\\Desktop\\repos\\ForzaTelemetry\\source\\Telemetry.API\\obj\\",
+        "outputPath": "C:\\Users\\Hazem\\Desktop\\repos\\ForzaTelemetry\\Telemetry.UDP\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Hazem\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -37,28 +37,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "dependencies": {
-            "MongoDB.Bson": {
-              "target": "Package",
-              "version": "[2.10.2, )"
-            },
-            "MongoDB.Driver": {
-              "target": "Package",
-              "version": "[2.10.2, )"
-            },
-            "MongoDB.Driver.Core": {
-              "target": "Package",
-              "version": "[2.10.2, )"
-            },
-            "MongoDB.Driver.GridFS": {
-              "target": "Package",
-              "version": "[2.10.2, )"
-            },
-            "Serilog.Sinks.MongoDB": {
-              "target": "Package",
-              "version": "[4.0.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -70,9 +48,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

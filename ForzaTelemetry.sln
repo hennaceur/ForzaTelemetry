@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Telemetry.Console", "source
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "source", "source", "{D8613E53-19B2-430B-B8F5-E654B798EF4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telemetry.Tests", "Telemetry.Tests\Telemetry.Tests.csproj", "{10B5F590-A3D5-4281-94CD-B069FCD24A50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Telemetry.Tests", "Telemetry.Tests\Telemetry.Tests.csproj", "{10B5F590-A3D5-4281-94CD-B069FCD24A50}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{F3F90DA6-6360-4563-932D-0487533B4246}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telemetry.UDP", "Telemetry.UDP\Telemetry.UDP.csproj", "{0EDDE94B-C4C8-476D-A06B-1FA478F2A962}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,10 @@ Global
 		{10B5F590-A3D5-4281-94CD-B069FCD24A50}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10B5F590-A3D5-4281-94CD-B069FCD24A50}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10B5F590-A3D5-4281-94CD-B069FCD24A50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EDDE94B-C4C8-476D-A06B-1FA478F2A962}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EDDE94B-C4C8-476D-A06B-1FA478F2A962}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EDDE94B-C4C8-476D-A06B-1FA478F2A962}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EDDE94B-C4C8-476D-A06B-1FA478F2A962}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
