@@ -1,1 +1,4 @@
 .vs/
+
+#ignore appsettings.json file that has credentials details
+*.json

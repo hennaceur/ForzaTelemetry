@@ -8,6 +8,8 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Options;
+using Telemetry.API.Models;
 
 namespace Telemetry.API
 {
@@ -23,6 +25,13 @@ namespace Telemetry.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //Bind database configuration from appsettings.json to dependency injection container
+            services.Configure<DatabaseConfigurationSettings>(
+                Configuration.GetSection(nameof(DatabaseConfigurationSettings)));
+            
+            //Adds singleton service of type `DatabaseConfigurationSettings`
+            services.AddSingleton<IDatabaseConfigurationSettings>(sp => sp.GetRequiredService<IOptions<DatabaseConfigurationSettings>>().Value);
+            
             services.AddRazorPages();
         }
 

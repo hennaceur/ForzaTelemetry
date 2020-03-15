@@ -3,22 +3,19 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Telemetry.API.Models;
 
 namespace Telemetry.API.Service
 {
     public class MongoDB
     {
-        public MongoDB()
+        private readonly MongoClient _client;
+
+        public MongoDB(DatabaseConfigurationSettings settings)
         {
-            MongoClient dbClient = new MongoClient();
+            _client = new MongoClient(settings.ConnectionString);
 
-            var dbList = dbClient.ListDatabases().ToList();
-
-            Console.WriteLine("The list of databases on this server is: ");
-            foreach (var db in dbList)
-            {
-                Console.WriteLine(db);
-            }
+       
         }
     }
 }
