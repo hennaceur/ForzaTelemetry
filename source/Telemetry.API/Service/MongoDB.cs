@@ -14,8 +14,7 @@ namespace Telemetry.API.Service
         public MongoDB(DatabaseConfigurationSettings settings)
         {
             _client = new MongoClient(settings.ConnectionString);
-
-       
+      
         }
     }
 }
