@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hazem\\Desktop\\repos\\ForzaTelemetry\\Telemetry.API\\Telemetry.API.csproj": {}
+    "C:\\Users\\Hazem\\Desktop\\repos\\ForzaTelemetry\\source\\Telemetry.API\\Telemetry.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hazem\\Desktop\\repos\\ForzaTelemetry\\Telemetry.API\\Telemetry.API.csproj": {
+    "C:\\Users\\Hazem\\Desktop\\repos\\ForzaTelemetry\\source\\Telemetry.API\\Telemetry.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hazem\\Desktop\\repos\\ForzaTelemetry\\Telemetry.API\\Telemetry.API.csproj",
+        "projectUniqueName": "C:\\Users\\Hazem\\Desktop\\repos\\ForzaTelemetry\\source\\Telemetry.API\\Telemetry.API.csproj",
         "projectName": "Telemetry.API",
-        "projectPath": "C:\\Users\\Hazem\\Desktop\\repos\\ForzaTelemetry\\Telemetry.API\\Telemetry.API.csproj",
+        "projectPath": "C:\\Users\\Hazem\\Desktop\\repos\\ForzaTelemetry\\source\\Telemetry.API\\Telemetry.API.csproj",
         "packagesPath": "C:\\Users\\Hazem\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hazem\\Desktop\\repos\\ForzaTelemetry\\Telemetry.API\\obj\\",
+        "outputPath": "C:\\Users\\Hazem\\Desktop\\repos\\ForzaTelemetry\\source\\Telemetry.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Hazem\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
