@@ -1,7 +1,6 @@
 C:\Users\Hazem\Desktop\repos\ForzaTelemetry\source\Telemetry.UDP\bin\Debug\netcoreapp3.1\Telemetry.UDP.deps.json
 C:\Users\Hazem\Desktop\repos\ForzaTelemetry\source\Telemetry.UDP\bin\Debug\netcoreapp3.1\Telemetry.UDP.dll
 C:\Users\Hazem\Desktop\repos\ForzaTelemetry\source\Telemetry.UDP\bin\Debug\netcoreapp3.1\Telemetry.UDP.pdb
-C:\Users\Hazem\Desktop\repos\ForzaTelemetry\source\Telemetry.UDP\obj\Debug\netcoreapp3.1\Telemetry.UDP.csprojAssemblyReference.cache
 C:\Users\Hazem\Desktop\repos\ForzaTelemetry\source\Telemetry.UDP\obj\Debug\netcoreapp3.1\Telemetry.UDP.AssemblyInfoInputs.cache
 C:\Users\Hazem\Desktop\repos\ForzaTelemetry\source\Telemetry.UDP\obj\Debug\netcoreapp3.1\Telemetry.UDP.AssemblyInfo.cs
 C:\Users\Hazem\Desktop\repos\ForzaTelemetry\source\Telemetry.UDP\obj\Debug\netcoreapp3.1\Telemetry.UDP.dll

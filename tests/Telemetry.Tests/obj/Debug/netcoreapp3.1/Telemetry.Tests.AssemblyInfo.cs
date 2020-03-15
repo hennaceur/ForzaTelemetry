@@ -11,6 +11,7 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("Telemetry.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\Hazem\\Desktop\\repos\\ForzaTelemetry\\source\\Telemetry.API", "Telemetry.API.csproj", "0")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Telemetry.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

@@ -15,7 +15,6 @@ C:\Users\Hazem\Desktop\repos\ForzaTelemetry\source\Telemetry.Console\bin\Debug\n
 C:\Users\Hazem\Desktop\repos\ForzaTelemetry\source\Telemetry.Console\bin\Debug\netcoreapp3.1\Telemetry.Console.runtimeconfig.dev.json
 C:\Users\Hazem\Desktop\repos\ForzaTelemetry\source\Telemetry.Console\bin\Debug\netcoreapp3.1\Telemetry.Console.dll
 C:\Users\Hazem\Desktop\repos\ForzaTelemetry\source\Telemetry.Console\bin\Debug\netcoreapp3.1\Telemetry.Console.pdb
-C:\Users\Hazem\Desktop\repos\ForzaTelemetry\source\Telemetry.Console\obj\Debug\netcoreapp3.1\Telemetry.Console.csprojAssemblyReference.cache
 C:\Users\Hazem\Desktop\repos\ForzaTelemetry\source\Telemetry.Console\obj\Debug\netcoreapp3.1\Telemetry.Console.AssemblyInfoInputs.cache
 C:\Users\Hazem\Desktop\repos\ForzaTelemetry\source\Telemetry.Console\obj\Debug\netcoreapp3.1\Telemetry.Console.AssemblyInfo.cs
 C:\Users\Hazem\Desktop\repos\ForzaTelemetry\source\Telemetry.Console\obj\Debug\netcoreapp3.1\Telemetry.Console.dll
