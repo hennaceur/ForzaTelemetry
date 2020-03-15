@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "source", "source", "{D8613E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telemetry.Tests", "Telemetry.Tests\Telemetry.Tests.csproj", "{10B5F590-A3D5-4281-94CD-B069FCD24A50}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{F3F90DA6-6360-4563-932D-0487533B4246}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,6 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{4DF89312-A3CA-4F65-B4EB-03CB3E6B04DE} = {D8613E53-19B2-430B-B8F5-E654B798EF4B}
 		{925C2308-6E21-4680-8FF3-BDC0EEA8BB8E} = {D8613E53-19B2-430B-B8F5-E654B798EF4B}
+		{10B5F590-A3D5-4281-94CD-B069FCD24A50} = {F3F90DA6-6360-4563-932D-0487533B4246}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5EB4B1BB-0F11-4697-9266-BA4EE2738596}
