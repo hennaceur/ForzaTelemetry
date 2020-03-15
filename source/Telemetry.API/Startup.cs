@@ -28,11 +28,13 @@ namespace Telemetry.API
             //Bind database configuration from appsettings.json to dependency injection container
             services.Configure<DatabaseConfigurationSettings>(
                 Configuration.GetSection(nameof(DatabaseConfigurationSettings)));
-            
+
             //Adds singleton service of type `DatabaseConfigurationSettings`
             services.AddSingleton<IDatabaseConfigurationSettings>(sp => sp.GetRequiredService<IOptions<DatabaseConfigurationSettings>>().Value);
-            
-            services.AddRazorPages();
+
+            services.AddControllers();
+
+            services.AddHealthChecks();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -50,11 +52,14 @@ namespace Telemetry.API
             }
 
             app.UseHttpsRedirection();
-            app.UseStaticFiles();
 
             app.UseRouting();
 
             app.UseAuthorization();
+
+            app.UseEndpoints(endpoints => {
+                endpoints.MapHealthChecks("/health");
+            });
 
             app.UseEndpoints(endpoints =>
             {

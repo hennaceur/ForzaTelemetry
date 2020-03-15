@@ -7,13 +7,13 @@ namespace Telemetry.API.Models
 {
     public interface IDatabaseConfigurationSettings
     {
-        public string ProjectCollectionName { get; set; }
+        public string CollectionName { get; set; }
         public string ConnectionString { get; set; }
         public string DatabaseName { get; set; }
     }
     public class DatabaseConfigurationSettings : IDatabaseConfigurationSettings
     {
-        public string ProjectCollectionName { get; set; }
+        public string CollectionName { get; set; }
         public string ConnectionString { get; set; }
         public string DatabaseName { get; set; }
     }
