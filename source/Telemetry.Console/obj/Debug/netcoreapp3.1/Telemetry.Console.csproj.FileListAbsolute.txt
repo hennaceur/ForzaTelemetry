@@ -19,3 +19,4 @@ C:\Users\Hazem\Desktop\repos\ForzaTelemetry\source\Telemetry.Console\obj\Debug\n
 C:\Users\Hazem\Desktop\repos\ForzaTelemetry\source\Telemetry.Console\obj\Debug\netcoreapp3.1\Telemetry.Console.AssemblyInfo.cs
 C:\Users\Hazem\Desktop\repos\ForzaTelemetry\source\Telemetry.Console\obj\Debug\netcoreapp3.1\Telemetry.Console.dll
 C:\Users\Hazem\Desktop\repos\ForzaTelemetry\source\Telemetry.Console\obj\Debug\netcoreapp3.1\Telemetry.Console.pdb
+C:\Users\Hazem\Desktop\repos\ForzaTelemetry\source\Telemetry.Console\obj\Debug\netcoreapp3.1\Telemetry.Console.csprojAssemblyReference.cache

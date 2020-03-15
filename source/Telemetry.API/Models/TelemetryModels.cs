@@ -12,7 +12,7 @@ namespace Telemetry.API.Models
     {
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
-        public string Id { get; set; }
-        public string listing_url { get; set; }
+        public ObjectId Id { get; set; }
+        public string plot { get; set; }
     }
 }

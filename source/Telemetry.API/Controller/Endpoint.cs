@@ -13,8 +13,8 @@ namespace Telemetry.API.Controller
     [ApiController]
     public class TelemetryModels : ControllerBase
     {
-        private readonly Service.MongoDB _models;
-        public TelemetryModels(Service.MongoDB models)
+        private readonly Service.MongoService _models;
+        public TelemetryModels(Service.MongoService models)
         {
             _models = models;
         }

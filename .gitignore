@@ -2,3 +2,8 @@
 
 #ignore appsettings.json file that has credentials details
 *.json
+
+#Cached files
+*.cache
+
+*.pdb
