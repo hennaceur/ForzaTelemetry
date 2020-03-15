@@ -12,6 +12,11 @@
     <PackageReference Include="Serilog.Sinks.MongoDB" Version="4.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="Service\" />
+  </ItemGroup>
+
 
 
 </Project>

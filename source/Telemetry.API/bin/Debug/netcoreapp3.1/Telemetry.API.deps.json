@@ -26,6 +26,7 @@
         "dependencies": {
           "MongoDB.Bson": "2.10.2",
           "MongoDB.Driver": "2.10.2",
+          "MongoDB.Driver.Core": "2.10.2",
           "MongoDB.Driver.GridFS": "2.10.2",
           "Serilog.Sinks.MongoDB": "4.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",

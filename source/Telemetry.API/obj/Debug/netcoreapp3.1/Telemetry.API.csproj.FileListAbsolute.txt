@@ -77,3 +77,4 @@ C:\Users\Hazem\Desktop\repos\ForzaTelemetry\source\Telemetry.API\bin\Debug\netco
 C:\Users\Hazem\Desktop\repos\ForzaTelemetry\source\Telemetry.API\bin\Debug\netcoreapp3.1\Serilog.dll
 C:\Users\Hazem\Desktop\repos\ForzaTelemetry\source\Telemetry.API\bin\Debug\netcoreapp3.1\Serilog.Sinks.MongoDB.dll
 C:\Users\Hazem\Desktop\repos\ForzaTelemetry\source\Telemetry.API\bin\Debug\netcoreapp3.1\Serilog.Sinks.PeriodicBatching.dll
+C:\Users\Hazem\Desktop\repos\ForzaTelemetry\source\Telemetry.API\obj\Debug\netcoreapp3.1\Telemetry.API.MvcApplicationPartsAssemblyInfo.cache
